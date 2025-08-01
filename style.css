@@ -125,3 +125,48 @@ body{
     background-position:bottom;
       transform: scale(1.07);
 }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  .list {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2rem;
+  }
+
+  .user-btn {
+    margin-right: 0;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .left, .right {
+    flex-basis: 100%;
+  }
+
+  .hero {
+    height: 250px; /* reduce height for mobile */
+    grid-auto-rows: unset;
+  }
+
+  .book-btn button {
+    width: 100%;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  .user-btn button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+}
