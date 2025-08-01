@@ -1,6 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 .navbar{
@@ -50,7 +53,7 @@ body{
   padding: 15px 20px;
   font-size: 1rem;
   border: none;
-  margin-right: 100px ;
+  margin-right: 2rem;
   border-radius: 8px;
   background-color: #49aaff;
   color: #041e28;
